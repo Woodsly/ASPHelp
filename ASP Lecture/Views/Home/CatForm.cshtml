@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!--post means it will send values to another location-->
+<!-- asp-action tells it which action in controller it will go to ->
+<form asp-method="post" asp-action="CatResult" asp-controller="Home">
+    <!-- name of input  will be its variable name -->
+    <input type="text" name="Name" />
+    <input type="text" name="Description" />
+
+    <!-- On click, will send values to associated action -->
+    <input type="submit" />
+</form>
+
+<!--****DO TYPE PASSWORD WHEN HAVING SOMEONE ENTER A PASSWORD****-->
+<!--can use <select><option1><select/>-->
+
+<button onclick="check()">sieufh</button>
+<script>
+function check() {console.log("help")}
+
+</script>
